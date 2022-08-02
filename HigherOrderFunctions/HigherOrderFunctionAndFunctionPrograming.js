@@ -30,3 +30,8 @@ for(let k=0;k<radius.length;k++){
     ciro.push(Math.PI*2*radius[k]);
 }
 console.log(ciro);
+
+// in this code we are repeating the 90 percent of code again and again 
+// so 
+// how to write the better code here ==>see in two.js
+

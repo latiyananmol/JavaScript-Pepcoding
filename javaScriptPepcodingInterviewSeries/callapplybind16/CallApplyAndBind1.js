@@ -8,4 +8,4 @@ let person2={
     name:"Sakshi ",age:25
 }
 person1.showDetails();
-person1.showDetails.call(person2
+person1.showDetails.call(person2);

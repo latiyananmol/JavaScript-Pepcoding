@@ -21,3 +21,6 @@ info.apply(person2,["London","AUDI"]);
 let fun=info.bind(person1,"leh","helicopter");
 fun();
 
+
+
+

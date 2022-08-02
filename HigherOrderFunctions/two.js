@@ -17,6 +17,10 @@ let calculate=function (radius,logic){
     }
     return ans;
 }
-console.log(calculate(radiusAll,diameter));
+//console.log(calculate(radiusAll,diameter));
 console.log(calculate(radiusAll,area));
-console.log(calculate(radiusAll,CircumFrence));
+//console.log(calculate(radiusAll,CircumFrence));
+//it is better way because here you have a function which is performing a particular way 
+console.log(radiusAll.map(function(r){
+    return Math.PI*r*r;
+}));// polyFill of map function 
